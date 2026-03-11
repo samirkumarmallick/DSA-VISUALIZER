@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DSA Visualizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>DSA Visualizer</h1>
+
+<div class="menu">
+<button onclick="showStack()">Stack</button>
+<button onclick="showQueue()">Queue</button>
+<button onclick="generateArray()">Sorting</button>
+<button onclick="bubbleSort()">Start Sort</button>
+</div>
+
+<div id="visualization"></div>
+
+<div class="controls">
+<input type="number" id="value" placeholder="Enter value">
+<button onclick="push()">Push</button>
+<button onclick="pop()">Pop</button>
+<button onclick="enqueue()">Enqueue</button>
+<button onclick="dequeue()">Dequeue</button>
+</div>
+
+<script src="dsa.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
